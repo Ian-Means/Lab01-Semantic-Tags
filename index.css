@@ -1,0 +1,86 @@
+/* Colors and style guidance from 
+https://www.iu.edu/brand/iu-brand/visual-identity/color.html */
+
+body {
+    height: 100vh;
+    border: 3px solid #B9C1C6;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #990000;
+    color: #EEEEF0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 15px;
+}
+
+header img {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 50px;
+    height: auto;
+}   
+
+nav {
+    color: #990000;
+    background-color: #EEEEF0;
+    width: 100%;
+}
+
+article {
+    width: 90%;
+    height: 45%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border: 5px solid #B9C1C6;
+    border-radius: 15px;
+}
+
+aside {
+    position: absolute;
+    top: 5px;
+    left: 65%;
+    width: 30%;
+    background-color: #EEEEF0;
+    border: 2px solid #990000;
+    margin-top: 15px;
+    padding: 5px;
+}
+
+footer {
+    position: absolute;
+    bottom: 2px;
+    width: 100%;
+    text-align: center;
+    background-color: #EEEEF0;
+    color: #990000;
+}
+
+.wrapper {
+    padding: 3px;
+}
+
+.contents {
+    position: absolute;
+    top: 150px;
+    border-top: 10px dashed #990000;
+    width: 100%;
+}
+
+.articles {
+    width: 60%;
+    background-color: #EEEEF0;
+    border: 2px solid #990000;
+    margin-top: 15px;
+}
+
+.picture {
+    width: 30%;
+}
