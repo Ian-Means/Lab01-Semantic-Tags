@@ -63,6 +63,12 @@ footer {
     color: #990000;
 }
 
+img {
+    width: 90%;
+    height: auto;
+    border-radius: 20px;
+}
+
 .wrapper {
     padding: 3px;
 }
@@ -82,5 +88,14 @@ footer {
 }
 
 .picture {
+    position: absolute;
+    top: 50%;
+    left: 65%;
     width: 30%;
+    height: auto;
+    text-align: center;
+    margin: 5px;
+    background-color: #EEEEF0;
+    border: 5px dotted #990000;
+    border-radius: 40px;
 }
