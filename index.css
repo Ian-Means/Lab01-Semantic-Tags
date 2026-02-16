@@ -99,3 +99,7 @@ img {
     border: 5px dotted #990000;
     border-radius: 40px;
 }
+
+nav a {
+    text-decoration: none;
+}
